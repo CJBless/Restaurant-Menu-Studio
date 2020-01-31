@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c250e5e6-28cd-4d9d-8db2-ffcc646e4370" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c250e5e6-28cd-4d9d-8db2-ffcc646e4370" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/restaurant/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestaurantMenu/restaurant/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestaurantMenu/restaurant/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RestaurantMenu/restaurant/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestaurantMenu/restaurant/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RestaurantMenu/restaurant/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/MenuItem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,20 +24,27 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1Wtq5gv5kT8wxzAi48fIaj9jUxz" />
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="ProjectId" id="1Wtq5gv5kT8wxzAi48fIaj9jUxz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.Restaurant">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="restaurant.Main" />
       <module name="RestaurantMenu" />
@@ -39,8 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="restaurant.Restaurant" />
+      <module name="RestaurantMenu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -58,13 +88,55 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="501" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1580486906907">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="501" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1580486906907" />
+    <state width="726" height="413" key="GridCell.Tab.0.bottom" timestamp="1580490593434">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="726" height="413" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580490593434" />
+    <state width="726" height="413" key="GridCell.Tab.0.center" timestamp="1580490593433">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="726" height="413" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580490593433" />
+    <state width="726" height="413" key="GridCell.Tab.0.left" timestamp="1580490593433">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="726" height="413" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580490593432" />
+    <state width="726" height="413" key="GridCell.Tab.0.right" timestamp="1580490593433">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="726" height="413" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580490593433" />
+    <state x="400" y="46" key="refactoring.ChangeSignatureDialog" timestamp="1580344803290">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="400" y="46" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1580344803290" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/restaurant/MenuItem.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="3" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/restaurant/Menu.java</url>
+          <line>30</line>
+          <properties class="restaurant.Menu" method="setFullMenu">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

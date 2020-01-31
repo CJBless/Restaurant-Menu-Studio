@@ -7,21 +7,21 @@ menu item is new or not = boolean?
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Objects;
 
 public class MenuItem {
-    private String price = "$";
+    private double price;
     private String description;
     String category;
     boolean newItem = false;
-    String dateAdded;
 
-    MenuItem(String price, String description, String category){
-        this.price += price;
+    MenuItem(double price, String description, String category){
+        this.price = price;
         this.description = description;
         this.category = category;
     }
 
-    String getPrice(){
+    Double getPrice(){
         return price;
     }
 
@@ -29,7 +29,7 @@ public class MenuItem {
         return description;
     }
 
-    public void setPrice(String aPrice) {
+    public void setPrice(Double aPrice) {
         price = aPrice;
     }
 
@@ -41,9 +41,28 @@ public class MenuItem {
         category = aCategory;
     }
 
-    void setDateAdded(){
-        DateFormat format = new SimpleDateFormat("MMM d, yyyy");
-        Date newDate = new Date();
-        dateAdded = format.format(newDate);
+    @Override
+    public String toString() {
+        String isNew;
+        if(newItem){
+            isNew = " NEW!";
+        } else {
+            isNew = "";
+        }
+        return "$" + price + isNew + "\n" + description + "\n";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MenuItem menuItem = (MenuItem) o;
+        return Objects.equals(description, menuItem.description);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(description);
     }
 }
+
